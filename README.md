@@ -17,7 +17,8 @@ This course will guide you through process of learning wiremock 3 using java lib
 - How wiremock standalone instance is setup on remote servers in organizations?
 - Extensive handson on incoming request match features in wiremock
 - Different ways to send response dynamically
-- Implementation of multiple use cases for User/Customer  REST api using wiremock java and admin api 
+- Implementation of multiple use cases for User/Customer  REST api using wiremock java and admin api
+- All new Wiremock 3 features are included
 
 Not only this for those who are beginner at writing code can learn all the concepts of wiremock end to end using admin api that covers all the features with live examples on remote as well as local machine.
 
