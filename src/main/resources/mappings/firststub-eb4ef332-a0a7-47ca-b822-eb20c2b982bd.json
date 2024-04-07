@@ -1,0 +1,17 @@
+{
+  "id" : "eb4ef332-a0a7-47ca-b822-eb20c2b982bd",
+  "request" : {
+    "url" : "/first/stub",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "stubResponse.json",
+    "headers" : {
+      "Content-type" : "application/json"
+    }
+  },
+  "uuid" : "eb4ef332-a0a7-47ca-b822-eb20c2b982bd",
+  "persistent" : true,
+  "insertionIndex" : 0
+}

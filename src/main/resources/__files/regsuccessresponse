@@ -1,0 +1,4 @@
+{
+    "id": {{randomInt lower=12 upper=520}},
+    "token": "{{randomValue length=15 type='ALPHANUMERIC'}}"
+}

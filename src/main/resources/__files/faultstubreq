@@ -1,0 +1,4 @@
+{
+    "email": "${json-unit.ignore}",
+    "password": "${json-unit.ignore}"
+}

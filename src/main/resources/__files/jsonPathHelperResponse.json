@@ -1,0 +1,7 @@
+
+{
+"name": "{{jsonPath request.body '$.name'}}",
+"job": "{{jsonPath request.body '$.job'}}",
+"id": "{{randomInt lower=125 upper=222}}",
+"createdAt": "{{now timezone='US/Pacific'}}"
+}

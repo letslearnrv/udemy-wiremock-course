@@ -1,0 +1,25 @@
+{{#if (matches request.pathSegments.[3] '[1-4]') }}
+
+{
+    "data": {
+        "id": "{{request.pathSegments.[3]}}",
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver"
+    }
+}
+
+{{else if (matches request.pathSegments.[3] '[5-9]')}}
+{
+    "data": {
+        "id": "{{request.pathSegments.[3]}}",
+        "email": "xyz.abc@reqres.in",
+        "first_name": "xyz",
+        "last_name": "abc"
+    }
+}
+{{else}}
+{
+"data": "No data exists"
+}
+{{/if}}

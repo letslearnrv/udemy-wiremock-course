@@ -1,0 +1,3 @@
+{
+"Result" :{{math (jsonPath request.body '$.A') '*' (jsonPath request.body '$.B')}}
+}
