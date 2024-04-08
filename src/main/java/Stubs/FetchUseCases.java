@@ -42,7 +42,15 @@ public class FetchUseCases {
                 ));
         return this;
     }
-
+    public FetchUseCases createStub() {
+        stubFor(post(urlEqualTo("/api/users"))
+                .willReturn(aResponse()
+                        .withBodyFile("create.json")
+                        .withHeader("Content-Type", "application/json")
+                        .withHeader("hostname", "{{request.host}}")
+                ));
+        return this;
+    }
 
 
 }
